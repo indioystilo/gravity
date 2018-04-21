@@ -1,0 +1,86 @@
+2018-Apr-21 13:14:50.651931 INFO    [simplewallet] forknote wallet v2.1.2.1251 ()
+2018-Apr-21 13:14:50.734987 INFO    [simplewallet] Generated new wallet: gN8S3XjBsiniG6okEts9UvQjdYBKwDvdyi97Xogatx9uQPf4j6widWdfjwr6LjD8k6ZmE3iXXrvFZb3uHh3stLKc2yGLRo4mv
+2018-Apr-21 13:14:50.734987 INFO    [simplewallet] view key: 20b3bbfa76386a98749b2415b74767821cfc189b7ad2c65d2cbd752af18ab005
+2018-Apr-21 13:14:50.735269 INFO    [simplewallet] **********************************************************************
+Your wallet has been generated.
+Use "help" command to see the list of available commands.
+Always use "exit" command when closing simplewallet to save
+current session's state. Otherwise, you will possibly need to synchronize 
+your wallet again. Your wallet key is NOT under risk anyway.
+**********************************************************************
+2018-Apr-21 13:16:00.845326 ERROR   [simplewallet] Error: wallet failed to connect to daemon (http://localhost:14041).
+2018-Apr-21 13:16:11.939160 INFO    [simplewallet] Wallet connected to daemon.
+2018-Apr-21 13:23:49.535803 INFO    [simplewallet] available balance: 0.00000000, locked amount: 0.00000000
+2018-Apr-21 13:23:54.319128 INFO    [simplewallet] Commands: 
+  address              Show current wallet public address
+  balance              Show current wallet balance
+  bc_height            Show blockchain height
+  exit                 Close wallet
+  export_keys          Show the secret keys of the openned wallet
+  help                 Show this help
+  incoming_transfers   Show incoming transfers
+  list_transfers       Show all known transfers
+  payments             payments <payment_id_1> [<payment_id_2> ... <payment_id_N>] - Show payments <payment_id_1>, ... <payment_id_N>
+  reset                Discard cache data and start synchronizing from the start
+  save                 Save wallet synchronized data
+  set_log              set_log <level> - Change current log level, <level> is a number 0-4
+  transfer             transfer <mixin_count> <addr_1> <amount_1> [<addr_2> <amount_2> ... <addr_N> <amount_N>] [-p payment_id] [-f fee] - Transfer <amount_1>,... <amount_N> to <address_1>,... <address_N>, respectively. <mixin_count> is the number of transactions yours is indistinguishable from (from 0 to maximum available)
+  
+
+2018-Apr-21 13:24:00.246851 INFO    [simplewallet] 0
+2018-Apr-21 13:24:42.732336 INFO    [simplewallet] Height 1, transaction 745a786f433f41ef553288570a4a0025fb0db1f00903772d2550c5568508b69a, received 39.22037672
+2018-Apr-21 13:24:42.732575 INFO    [simplewallet] Height 2, transaction 6ee9e77b2b5ada38ab53a11bf04dd7f1a90d06184073300dd03fdf1f5ae0d46a, received 39.22022710
+2018-Apr-21 13:24:52.774667 INFO    [simplewallet] Height 3, transaction 0adab27f6c0b7ca46edd36963972e8ef216d07c0ee4cd2922508b219f61cb185, received 39.22007749
+2018-Apr-21 13:25:17.879752 INFO    [simplewallet] Height 4, transaction 553c4d46edba9d06253f855cab49543bb61fe152234b135d1e452fe5d1257119, received 39.21992788
+2018-Apr-21 13:53:05.471790 INFO    [simplewallet] Height 5, transaction 35dcb1393dee24a9a14b6152de6951c8a5ae4b74eb6a5d09d5abd7fb2c69b53d, received 39.21977827
+2018-Apr-21 14:14:01.723769 INFO    [simplewallet] Height 6, transaction 68efb0600914eb6f82058aee24aa1e6be0091fa23a429a260473ec06c30882e3, received 39.21962865
+2018-Apr-21 14:23:43.281201 INFO    [simplewallet] 6
+2018-Apr-21 14:27:40.151331 ERROR   [simplewallet] Error: wallet failed to connect to daemon (http://localhost:14041).
+2018-Apr-21 14:28:20.155828 INFO    [simplewallet] Wallet connected to daemon.
+2018-Apr-21 14:30:17.241984 INFO    [simplewallet] available balance: 0.00000000, locked amount: 235.32001611
+2018-Apr-21 14:31:51.360844 ERROR   [simplewallet] Error: wallet failed to connect to daemon (http://localhost:14041).
+2018-Apr-21 14:32:26.364833 INFO    [simplewallet] Wallet connected to daemon.
+2018-Apr-21 14:37:07.355073 INFO    [simplewallet] Commands: 
+  address              Show current wallet public address
+  balance              Show current wallet balance
+  bc_height            Show blockchain height
+  exit                 Close wallet
+  export_keys          Show the secret keys of the openned wallet
+  help                 Show this help
+  incoming_transfers   Show incoming transfers
+  list_transfers       Show all known transfers
+  payments             payments <payment_id_1> [<payment_id_2> ... <payment_id_N>] - Show payments <payment_id_1>, ... <payment_id_N>
+  reset                Discard cache data and start synchronizing from the start
+  save                 Save wallet synchronized data
+  set_log              set_log <level> - Change current log level, <level> is a number 0-4
+  transfer             transfer <mixin_count> <addr_1> <amount_1> [<addr_2> <amount_2> ... <addr_N> <amount_N>] [-p payment_id] [-f fee] - Transfer <amount_1>,... <amount_N> to <address_1>,... <address_N>, respectively. <mixin_count> is the number of transactions yours is indistinguishable from (from 0 to maximum available)
+  
+
+2018-Apr-21 14:37:14.025853 INFO    [simplewallet] gN8S3XjBsiniG6okEts9UvQjdYBKwDvdyi97Xogatx9uQPf4j6widWdfjwr6LjD8k6ZmE3iXXrvFZb3uHh3stLKc2yGLRo4mv
+2018-Apr-21 14:37:15.703463 INFO    [simplewallet] Wallet data saved
+2018-Apr-21 14:45:42.527642 INFO    [simplewallet] Height 7, transaction c1bb85dc4c9c9e182c2550519a0bfa5d80dfe598b9dd87c9fb60d74159cc98d0, received 39.21947904
+2018-Apr-21 14:47:19.984300 INFO    [simplewallet] available balance: 0.00000000, locked amount: 274.53949515
+2018-Apr-21 14:56:10.335493 INFO    [simplewallet] Height 8, transaction eb4ab1dbfa6b0edbbe260ac0d8da770af7069c5c088cd15a008c5941aa667d35, received 39.21932943
+2018-Apr-21 14:56:18.950929 INFO    [simplewallet] Wallet data saved
+2018-Apr-21 14:56:39.914390 ERROR   [simplewallet] Error: wallet failed to connect to daemon (http://localhost:14041).
+2018-Apr-21 14:56:44.915524 INFO    [simplewallet] Wallet connected to daemon.
+2018-Apr-21 14:56:55.070021 INFO    [simplewallet] Wallet closed
+2018-Apr-21 14:59:43.990374 INFO    [simplewallet] forknote wallet v2.1.2.1251 ()
+2018-Apr-21 14:59:43.990567 ERROR   [simplewallet] Error: pocket.wallet already exists
+2018-Apr-21 14:59:43.990616 ERROR   [simplewallet] Failed to initialize wallet
+2018-Apr-21 15:04:21.590267 INFO    [simplewallet] forknote wallet v2.1.2.1251 ()
+2018-Apr-21 15:04:26.908662 INFO    [simplewallet] Loading wallet...
+2018-Apr-21 15:04:27.054471 INFO    [simplewallet] Opened wallet: gN8S3XjBsiniG6okEts9UvQjdYBKwDvdyi97Xogatx9uQPf4j6widWdfjwr6LjD8k6ZmE3iXXrvFZb3uHh3stLKc2yGLRo4mv
+2018-Apr-21 15:04:27.054560 INFO    [simplewallet] **********************************************************************
+Use "help" command to see the list of available commands.
+**********************************************************************
+2018-Apr-21 15:13:44.462926 INFO    [simplewallet] forknote wallet v2.1.2.1251 ()
+2018-Apr-21 15:13:46.606185 INFO    [simplewallet] Loading wallet...
+2018-Apr-21 15:13:46.687767 INFO    [simplewallet] Opened wallet: gN8S3XjBsiniG6okEts9UvQjdYBKwDvdyi97Xogatx9uQPf4j6widWdfjwr6LjD8k6ZmE3iXXrvFZb3uHh3stLKc2yGLRo4mv
+2018-Apr-21 15:13:46.687870 INFO    [simplewallet] **********************************************************************
+Use "help" command to see the list of available commands.
+**********************************************************************
+2018-Apr-21 15:15:40.671733 ERROR   [simplewallet] Error: wallet failed to connect to daemon (http://localhost:14041).
+2018-Apr-21 15:15:47.557315 INFO    [simplewallet] Wallet connected to daemon.
+2018-Apr-21 15:15:51.316691 INFO    [simplewallet] Wallet data saved
+2018-Apr-21 15:15:52.807626 INFO    [simplewallet] Wallet closed

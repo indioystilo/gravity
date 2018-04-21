@@ -1,0 +1,1214 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/indioystilo/.nvm/versions/node/v4.7.3/bin/node',
+1 verbose cli   '/home/indioystilo/.nvm/versions/node/v4.7.3/bin/npm',
+1 verbose cli   'update' ]
+2 info using npm@2.15.11
+3 info using node@v4.7.3
+4 silly mapToRegistry name bignum
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry https://registry.npmjs.org/
+7 silly mapToRegistry data Result {
+7 silly mapToRegistry   raw: 'bignum',
+7 silly mapToRegistry   scope: null,
+7 silly mapToRegistry   name: 'bignum',
+7 silly mapToRegistry   rawSpec: '',
+7 silly mapToRegistry   spec: 'latest',
+7 silly mapToRegistry   type: 'tag' }
+8 silly mapToRegistry uri https://registry.npmjs.org/bignum
+9 silly mapToRegistry name async
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'async',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   name: 'async',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/async
+14 silly mapToRegistry name redis
+15 silly mapToRegistry using default registry
+16 silly mapToRegistry registry https://registry.npmjs.org/
+17 silly mapToRegistry data Result {
+17 silly mapToRegistry   raw: 'redis',
+17 silly mapToRegistry   scope: null,
+17 silly mapToRegistry   name: 'redis',
+17 silly mapToRegistry   rawSpec: '',
+17 silly mapToRegistry   spec: 'latest',
+17 silly mapToRegistry   type: 'tag' }
+18 silly mapToRegistry uri https://registry.npmjs.org/redis
+19 silly mapToRegistry name cli-color
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry data Result {
+22 silly mapToRegistry   raw: 'cli-color',
+22 silly mapToRegistry   scope: null,
+22 silly mapToRegistry   name: 'cli-color',
+22 silly mapToRegistry   rawSpec: '',
+22 silly mapToRegistry   spec: 'latest',
+22 silly mapToRegistry   type: 'tag' }
+23 silly mapToRegistry uri https://registry.npmjs.org/cli-color
+24 silly mapToRegistry name dateformat
+25 silly mapToRegistry using default registry
+26 silly mapToRegistry registry https://registry.npmjs.org/
+27 silly mapToRegistry data Result {
+27 silly mapToRegistry   raw: 'dateformat',
+27 silly mapToRegistry   scope: null,
+27 silly mapToRegistry   name: 'dateformat',
+27 silly mapToRegistry   rawSpec: '',
+27 silly mapToRegistry   spec: 'latest',
+27 silly mapToRegistry   type: 'tag' }
+28 silly mapToRegistry uri https://registry.npmjs.org/dateformat
+29 silly mapToRegistry name base58-native
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry data Result {
+32 silly mapToRegistry   raw: 'base58-native',
+32 silly mapToRegistry   scope: null,
+32 silly mapToRegistry   name: 'base58-native',
+32 silly mapToRegistry   rawSpec: '',
+32 silly mapToRegistry   spec: 'latest',
+32 silly mapToRegistry   type: 'tag' }
+33 silly mapToRegistry uri https://registry.npmjs.org/base58-native
+34 verbose request uri https://registry.npmjs.org/bignum
+35 verbose request no auth needed
+36 info attempt registry request try #1 at 6:03:29 AM
+37 verbose request id 41c03229745ada90
+38 verbose etag "5aa38304-a9c0"
+39 verbose lastModified Sat, 10 Mar 2018 7:02:28 GMT
+40 http request GET https://registry.npmjs.org/bignum
+41 verbose request uri https://registry.npmjs.org/async
+42 verbose request no auth needed
+43 info attempt registry request try #1 at 6:03:29 AM
+44 verbose etag "5acd452e-235d2"
+45 verbose lastModified Tue, 10 Apr 2018 23:13:50 GMT
+46 http request GET https://registry.npmjs.org/async
+47 verbose request uri https://registry.npmjs.org/redis
+48 verbose request no auth needed
+49 info attempt registry request try #1 at 6:03:29 AM
+50 verbose etag "5aa58519-28285"
+51 verbose lastModified Sun, 11 Mar 2018 19:35:53 GMT
+52 http request GET https://registry.npmjs.org/redis
+53 verbose request uri https://registry.npmjs.org/cli-color
+54 verbose request no auth needed
+55 info attempt registry request try #1 at 6:03:29 AM
+56 verbose etag "5aa62e3d-ec9e"
+57 verbose lastModified Mon, 12 Mar 2018 7:37:33 GMT
+58 http request GET https://registry.npmjs.org/cli-color
+59 verbose request uri https://registry.npmjs.org/dateformat
+60 verbose request no auth needed
+61 info attempt registry request try #1 at 6:03:29 AM
+62 verbose etag "5aa894a5-8282"
+63 verbose lastModified Wed, 14 Mar 2018 3:19:01 GMT
+64 http request GET https://registry.npmjs.org/dateformat
+65 verbose request uri https://registry.npmjs.org/base58-native
+66 verbose request no auth needed
+67 info attempt registry request try #1 at 6:03:29 AM
+68 verbose etag "5380a75a-1fb9"
+69 verbose lastModified Sat, 24 May 2014 14:06:18 GMT
+70 http request GET https://registry.npmjs.org/base58-native
+71 http 304 https://registry.npmjs.org/redis
+72 verbose headers { date: 'Fri, 13 Apr 2018 04:03:29 GMT',
+72 verbose headers   via: '1.1 varnish',
+72 verbose headers   'cache-control': 'max-age=300',
+72 verbose headers   etag: '"5aa58519-28285"',
+72 verbose headers   age: '7866',
+72 verbose headers   connection: 'keep-alive',
+72 verbose headers   'x-served-by': 'cache-ams4121-AMS',
+72 verbose headers   'x-cache': 'HIT',
+72 verbose headers   'x-cache-hits': '4',
+72 verbose headers   'x-timer': 'S1523592210.931045,VS0,VE0',
+72 verbose headers   vary: 'Accept-Encoding, Accept' }
+73 silly get cb [ 304,
+73 silly get   { date: 'Fri, 13 Apr 2018 04:03:29 GMT',
+73 silly get     via: '1.1 varnish',
+73 silly get     'cache-control': 'max-age=300',
+73 silly get     etag: '"5aa58519-28285"',
+73 silly get     age: '7866',
+73 silly get     connection: 'keep-alive',
+73 silly get     'x-served-by': 'cache-ams4121-AMS',
+73 silly get     'x-cache': 'HIT',
+73 silly get     'x-cache-hits': '4',
+73 silly get     'x-timer': 'S1523592210.931045,VS0,VE0',
+73 silly get     vary: 'Accept-Encoding, Accept' } ]
+74 verbose etag https://registry.npmjs.org/redis from cache
+75 verbose get saving redis to /home/indioystilo/.npm/registry.npmjs.org/redis/.cache.json
+76 verbose correctMkdir /home/indioystilo/.npm correctMkdir not in flight; initializing
+77 http 304 https://registry.npmjs.org/bignum
+78 verbose headers { date: 'Fri, 13 Apr 2018 04:03:29 GMT',
+78 verbose headers   via: '1.1 varnish',
+78 verbose headers   'cache-control': 'max-age=300',
+78 verbose headers   etag: '"5aa38304-a9c0"',
+78 verbose headers   age: '6586',
+78 verbose headers   connection: 'keep-alive',
+78 verbose headers   'x-served-by': 'cache-ams4428-AMS',
+78 verbose headers   'x-cache': 'HIT',
+78 verbose headers   'x-cache-hits': '1',
+78 verbose headers   'x-timer': 'S1523592210.930736,VS0,VE0',
+78 verbose headers   vary: 'Accept-Encoding, Accept' }
+79 silly get cb [ 304,
+79 silly get   { date: 'Fri, 13 Apr 2018 04:03:29 GMT',
+79 silly get     via: '1.1 varnish',
+79 silly get     'cache-control': 'max-age=300',
+79 silly get     etag: '"5aa38304-a9c0"',
+79 silly get     age: '6586',
+79 silly get     connection: 'keep-alive',
+79 silly get     'x-served-by': 'cache-ams4428-AMS',
+79 silly get     'x-cache': 'HIT',
+79 silly get     'x-cache-hits': '1',
+79 silly get     'x-timer': 'S1523592210.930736,VS0,VE0',
+79 silly get     vary: 'Accept-Encoding, Accept' } ]
+80 verbose etag https://registry.npmjs.org/bignum from cache
+81 verbose get saving bignum to /home/indioystilo/.npm/registry.npmjs.org/bignum/.cache.json
+82 verbose correctMkdir /home/indioystilo/.npm correctMkdir already in flight; waiting
+83 http 304 https://registry.npmjs.org/async
+84 verbose headers { date: 'Fri, 13 Apr 2018 04:03:29 GMT',
+84 verbose headers   via: '1.1 varnish',
+84 verbose headers   'cache-control': 'max-age=300',
+84 verbose headers   etag: '"5acd452e-235d2"',
+84 verbose headers   age: '2890',
+84 verbose headers   connection: 'keep-alive',
+84 verbose headers   'x-served-by': 'cache-ams4125-AMS',
+84 verbose headers   'x-cache': 'HIT',
+84 verbose headers   'x-cache-hits': '9',
+84 verbose headers   'x-timer': 'S1523592210.931056,VS0,VE0',
+84 verbose headers   vary: 'Accept-Encoding, Accept' }
+85 silly get cb [ 304,
+85 silly get   { date: 'Fri, 13 Apr 2018 04:03:29 GMT',
+85 silly get     via: '1.1 varnish',
+85 silly get     'cache-control': 'max-age=300',
+85 silly get     etag: '"5acd452e-235d2"',
+85 silly get     age: '2890',
+85 silly get     connection: 'keep-alive',
+85 silly get     'x-served-by': 'cache-ams4125-AMS',
+85 silly get     'x-cache': 'HIT',
+85 silly get     'x-cache-hits': '9',
+85 silly get     'x-timer': 'S1523592210.931056,VS0,VE0',
+85 silly get     vary: 'Accept-Encoding, Accept' } ]
+86 verbose etag https://registry.npmjs.org/async from cache
+87 verbose get saving async to /home/indioystilo/.npm/registry.npmjs.org/async/.cache.json
+88 verbose correctMkdir /home/indioystilo/.npm correctMkdir already in flight; waiting
+89 http 304 https://registry.npmjs.org/dateformat
+90 verbose headers { date: 'Fri, 13 Apr 2018 04:03:29 GMT',
+90 verbose headers   via: '1.1 varnish',
+90 verbose headers   'cache-control': 'max-age=300',
+90 verbose headers   etag: '"5aa894a5-8282"',
+90 verbose headers   age: '12362',
+90 verbose headers   connection: 'keep-alive',
+90 verbose headers   'x-served-by': 'cache-ams4122-AMS',
+90 verbose headers   'x-cache': 'HIT',
+90 verbose headers   'x-cache-hits': '15',
+90 verbose headers   'x-timer': 'S1523592210.932224,VS0,VE0',
+90 verbose headers   vary: 'Accept-Encoding, Accept' }
+91 silly get cb [ 304,
+91 silly get   { date: 'Fri, 13 Apr 2018 04:03:29 GMT',
+91 silly get     via: '1.1 varnish',
+91 silly get     'cache-control': 'max-age=300',
+91 silly get     etag: '"5aa894a5-8282"',
+91 silly get     age: '12362',
+91 silly get     connection: 'keep-alive',
+91 silly get     'x-served-by': 'cache-ams4122-AMS',
+91 silly get     'x-cache': 'HIT',
+91 silly get     'x-cache-hits': '15',
+91 silly get     'x-timer': 'S1523592210.932224,VS0,VE0',
+91 silly get     vary: 'Accept-Encoding, Accept' } ]
+92 verbose etag https://registry.npmjs.org/dateformat from cache
+93 verbose get saving dateformat to /home/indioystilo/.npm/registry.npmjs.org/dateformat/.cache.json
+94 verbose correctMkdir /home/indioystilo/.npm correctMkdir already in flight; waiting
+95 http 304 https://registry.npmjs.org/base58-native
+96 verbose headers { date: 'Fri, 13 Apr 2018 04:03:29 GMT',
+96 verbose headers   via: '1.1 varnish',
+96 verbose headers   'cache-control': 'max-age=300',
+96 verbose headers   etag: '"5380a75a-1fb9"',
+96 verbose headers   age: '198',
+96 verbose headers   connection: 'keep-alive',
+96 verbose headers   'x-served-by': 'cache-ams4424-AMS',
+96 verbose headers   'x-cache': 'HIT',
+96 verbose headers   'x-cache-hits': '1',
+96 verbose headers   'x-timer': 'S1523592210.932627,VS0,VE1',
+96 verbose headers   vary: 'Accept-Encoding, Accept' }
+97 silly get cb [ 304,
+97 silly get   { date: 'Fri, 13 Apr 2018 04:03:29 GMT',
+97 silly get     via: '1.1 varnish',
+97 silly get     'cache-control': 'max-age=300',
+97 silly get     etag: '"5380a75a-1fb9"',
+97 silly get     age: '198',
+97 silly get     connection: 'keep-alive',
+97 silly get     'x-served-by': 'cache-ams4424-AMS',
+97 silly get     'x-cache': 'HIT',
+97 silly get     'x-cache-hits': '1',
+97 silly get     'x-timer': 'S1523592210.932627,VS0,VE1',
+97 silly get     vary: 'Accept-Encoding, Accept' } ]
+98 verbose etag https://registry.npmjs.org/base58-native from cache
+99 verbose get saving base58-native to /home/indioystilo/.npm/registry.npmjs.org/base58-native/.cache.json
+100 verbose correctMkdir /home/indioystilo/.npm correctMkdir already in flight; waiting
+101 http 304 https://registry.npmjs.org/cli-color
+102 verbose headers { date: 'Fri, 13 Apr 2018 04:03:29 GMT',
+102 verbose headers   via: '1.1 varnish',
+102 verbose headers   'cache-control': 'max-age=300',
+102 verbose headers   etag: '"5aa62e3d-ec9e"',
+102 verbose headers   age: '0',
+102 verbose headers   connection: 'keep-alive',
+102 verbose headers   'x-served-by': 'cache-ams4124-AMS',
+102 verbose headers   'x-cache': 'MISS',
+102 verbose headers   'x-cache-hits': '0',
+102 verbose headers   'x-timer': 'S1523592210.929850,VS0,VE253',
+102 verbose headers   vary: 'Accept-Encoding, Accept' }
+103 silly get cb [ 304,
+103 silly get   { date: 'Fri, 13 Apr 2018 04:03:29 GMT',
+103 silly get     via: '1.1 varnish',
+103 silly get     'cache-control': 'max-age=300',
+103 silly get     etag: '"5aa62e3d-ec9e"',
+103 silly get     age: '0',
+103 silly get     connection: 'keep-alive',
+103 silly get     'x-served-by': 'cache-ams4124-AMS',
+103 silly get     'x-cache': 'MISS',
+103 silly get     'x-cache-hits': '0',
+103 silly get     'x-timer': 'S1523592210.929850,VS0,VE253',
+103 silly get     vary: 'Accept-Encoding, Accept' } ]
+104 verbose etag https://registry.npmjs.org/cli-color from cache
+105 verbose get saving cli-color to /home/indioystilo/.npm/registry.npmjs.org/cli-color/.cache.json
+106 verbose correctMkdir /home/indioystilo/.npm correctMkdir not in flight; initializing
+107 info outdated updating [ [ '/home/indioystilo/pool',
+107 info outdated     'multi-hashing',
+107 info outdated     '0.0.9',
+107 info outdated     'git',
+107 info outdated     'git',
+107 info outdated     'git://github.com/fancoder/node-multi-hashing.git' ],
+107 info outdated   [ '/home/indioystilo/pool',
+107 info outdated     'cryptonote-util',
+107 info outdated     undefined,
+107 info outdated     'git',
+107 info outdated     'git',
+107 info outdated     'git://github.com/fancoder/node-cryptonote-util.git' ] ]
+108 verbose install where, what [ '/home/indioystilo/pool',
+108 verbose install   [ 'git://github.com/fancoder/node-multi-hashing.git' ] ]
+109 verbose install where, what [ '/home/indioystilo/pool',
+109 verbose install   [ 'git://github.com/fancoder/node-cryptonote-util.git' ] ]
+110 verbose install initial load of /home/indioystilo/pool/package.json
+111 verbose install initial load of /home/indioystilo/pool/package.json
+112 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/abbrev/package.json
+113 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/ajv/package.json
+114 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/ansi-regex/package.json
+115 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/aproba/package.json
+116 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/are-we-there-yet/package.json
+117 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/asn1/package.json
+118 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/assert-plus/package.json
+119 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/async/package.json
+120 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/asynckit/package.json
+121 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/aws-sign2/package.json
+122 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/aws4/package.json
+123 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/balanced-match/package.json
+124 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/base58-native/package.json
+125 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/bcrypt-pbkdf/package.json
+126 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/bignum/package.json
+127 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/bindings/package.json
+128 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/block-stream/package.json
+129 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/boom/package.json
+130 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/brace-expansion/package.json
+131 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/caseless/package.json
+132 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/cli-color/package.json
+133 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/co/package.json
+134 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/code-point-at/package.json
+135 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/combined-stream/package.json
+136 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/concat-map/package.json
+137 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/console-control-strings/package.json
+138 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/core-util-is/package.json
+139 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/cryptiles/package.json
+140 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/d/package.json
+141 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/dashdash/package.json
+142 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/dateformat/package.json
+143 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/debug/package.json
+144 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/deep-extend/package.json
+145 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/delayed-stream/package.json
+146 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/delegates/package.json
+147 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/detect-libc/package.json
+148 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/double-ended-queue/package.json
+149 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/ecc-jsbn/package.json
+150 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/es5-ext/package.json
+151 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/es6-iterator/package.json
+152 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/es6-symbol/package.json
+153 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/es6-weak-map/package.json
+154 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/event-emitter/package.json
+155 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/extend/package.json
+156 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/extsprintf/package.json
+157 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/forever-agent/package.json
+158 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/form-data/package.json
+159 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/fs.realpath/package.json
+160 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/fstream/package.json
+161 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/fstream-ignore/package.json
+162 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/gauge/package.json
+163 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/getpass/package.json
+164 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/glob/package.json
+165 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/graceful-fs/package.json
+166 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/har-schema/package.json
+167 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/har-validator/package.json
+168 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/has-unicode/package.json
+169 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/hawk/package.json
+170 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/hoek/package.json
+171 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/http-signature/package.json
+172 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/inflight/package.json
+173 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/inherits/package.json
+174 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/ini/package.json
+175 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/is-fullwidth-code-point/package.json
+176 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/is-promise/package.json
+177 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/is-typedarray/package.json
+178 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/isarray/package.json
+179 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/isstream/package.json
+180 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/jsbn/package.json
+181 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/json-schema/package.json
+182 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/json-stable-stringify/package.json
+183 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/json-stringify-safe/package.json
+184 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/jsonify/package.json
+185 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/jsprim/package.json
+186 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/lodash/package.json
+187 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/lru-queue/package.json
+188 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/memoizee/package.json
+189 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/mime-db/package.json
+190 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/mime-types/package.json
+191 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/minimatch/package.json
+192 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/minimist/package.json
+193 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/mkdirp/package.json
+194 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/ms/package.json
+195 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/multi-hashing/package.json
+196 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/nan/package.json
+197 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/next-tick/package.json
+198 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/node-pre-gyp/package.json
+199 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/nopt/package.json
+200 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/npmlog/package.json
+201 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/number-is-nan/package.json
+202 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/oauth-sign/package.json
+203 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/object-assign/package.json
+204 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/once/package.json
+205 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/os-homedir/package.json
+206 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/os-tmpdir/package.json
+207 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/osenv/package.json
+208 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/path-is-absolute/package.json
+209 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/performance-now/package.json
+210 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/process-nextick-args/package.json
+211 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/punycode/package.json
+212 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/qs/package.json
+213 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/rc/package.json
+214 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/readable-stream/package.json
+215 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/redis/package.json
+216 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/redis-commands/package.json
+217 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/redis-parser/package.json
+218 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/request/package.json
+219 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/rimraf/package.json
+220 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/safe-buffer/package.json
+221 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/semver/package.json
+222 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/set-blocking/package.json
+223 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/signal-exit/package.json
+224 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/sntp/package.json
+225 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/sshpk/package.json
+226 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/string-width/package.json
+227 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/string_decoder/package.json
+228 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/stringstream/package.json
+229 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/strip-ansi/package.json
+230 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/strip-json-comments/package.json
+231 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/tar/package.json
+232 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/tar-pack/package.json
+233 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/timers-ext/package.json
+234 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/tough-cookie/package.json
+235 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/tunnel-agent/package.json
+236 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/tweetnacl/package.json
+237 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/uid-number/package.json
+238 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/util-deprecate/package.json
+239 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/uuid/package.json
+240 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/verror/package.json
+241 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/wide-align/package.json
+242 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/wrappy/package.json
+243 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/abbrev/package.json
+244 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/ajv/package.json
+245 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/ansi-regex/package.json
+246 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/aproba/package.json
+247 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/are-we-there-yet/package.json
+248 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/asn1/package.json
+249 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/assert-plus/package.json
+250 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/async/package.json
+251 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/asynckit/package.json
+252 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/aws-sign2/package.json
+253 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/aws4/package.json
+254 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/balanced-match/package.json
+255 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/base58-native/package.json
+256 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/bcrypt-pbkdf/package.json
+257 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/bignum/package.json
+258 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/bindings/package.json
+259 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/block-stream/package.json
+260 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/boom/package.json
+261 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/brace-expansion/package.json
+262 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/caseless/package.json
+263 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/cli-color/package.json
+264 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/co/package.json
+265 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/code-point-at/package.json
+266 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/combined-stream/package.json
+267 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/concat-map/package.json
+268 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/console-control-strings/package.json
+269 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/core-util-is/package.json
+270 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/cryptiles/package.json
+271 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/d/package.json
+272 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/dashdash/package.json
+273 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/dateformat/package.json
+274 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/debug/package.json
+275 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/deep-extend/package.json
+276 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/delayed-stream/package.json
+277 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/delegates/package.json
+278 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/detect-libc/package.json
+279 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/double-ended-queue/package.json
+280 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/ecc-jsbn/package.json
+281 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/es5-ext/package.json
+282 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/es6-iterator/package.json
+283 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/es6-symbol/package.json
+284 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/es6-weak-map/package.json
+285 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/event-emitter/package.json
+286 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/extend/package.json
+287 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/extsprintf/package.json
+288 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/forever-agent/package.json
+289 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/form-data/package.json
+290 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/fs.realpath/package.json
+291 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/fstream/package.json
+292 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/fstream-ignore/package.json
+293 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/gauge/package.json
+294 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/getpass/package.json
+295 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/glob/package.json
+296 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/graceful-fs/package.json
+297 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/har-schema/package.json
+298 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/har-validator/package.json
+299 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/has-unicode/package.json
+300 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/hawk/package.json
+301 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/hoek/package.json
+302 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/http-signature/package.json
+303 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/inflight/package.json
+304 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/inherits/package.json
+305 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/ini/package.json
+306 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/is-fullwidth-code-point/package.json
+307 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/is-promise/package.json
+308 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/is-typedarray/package.json
+309 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/isarray/package.json
+310 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/isstream/package.json
+311 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/jsbn/package.json
+312 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/json-schema/package.json
+313 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/json-stable-stringify/package.json
+314 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/json-stringify-safe/package.json
+315 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/jsonify/package.json
+316 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/jsprim/package.json
+317 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/lodash/package.json
+318 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/lru-queue/package.json
+319 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/memoizee/package.json
+320 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/mime-db/package.json
+321 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/mime-types/package.json
+322 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/minimatch/package.json
+323 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/minimist/package.json
+324 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/mkdirp/package.json
+325 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/ms/package.json
+326 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/multi-hashing/package.json
+327 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/nan/package.json
+328 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/next-tick/package.json
+329 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/node-pre-gyp/package.json
+330 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/nopt/package.json
+331 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/npmlog/package.json
+332 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/number-is-nan/package.json
+333 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/oauth-sign/package.json
+334 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/object-assign/package.json
+335 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/once/package.json
+336 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/os-homedir/package.json
+337 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/os-tmpdir/package.json
+338 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/osenv/package.json
+339 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/path-is-absolute/package.json
+340 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/performance-now/package.json
+341 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/process-nextick-args/package.json
+342 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/punycode/package.json
+343 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/qs/package.json
+344 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/rc/package.json
+345 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/readable-stream/package.json
+346 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/redis/package.json
+347 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/redis-commands/package.json
+348 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/redis-parser/package.json
+349 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/request/package.json
+350 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/rimraf/package.json
+351 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/safe-buffer/package.json
+352 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/semver/package.json
+353 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/set-blocking/package.json
+354 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/signal-exit/package.json
+355 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/sntp/package.json
+356 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/sshpk/package.json
+357 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/string-width/package.json
+358 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/string_decoder/package.json
+359 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/stringstream/package.json
+360 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/strip-ansi/package.json
+361 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/strip-json-comments/package.json
+362 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/tar/package.json
+363 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/tar-pack/package.json
+364 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/timers-ext/package.json
+365 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/tough-cookie/package.json
+366 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/tunnel-agent/package.json
+367 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/tweetnacl/package.json
+368 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/uid-number/package.json
+369 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/util-deprecate/package.json
+370 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/uuid/package.json
+371 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/verror/package.json
+372 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/wide-align/package.json
+373 verbose installManyTop reading scoped package data from /home/indioystilo/pool/node_modules/wrappy/package.json
+374 verbose readDependencies loading dependencies from /home/indioystilo/pool/package.json
+375 verbose readDependencies loading dependencies from /home/indioystilo/pool/package.json
+376 silly cache add args [ 'git://github.com/fancoder/node-multi-hashing.git', null ]
+377 verbose cache add spec git://github.com/fancoder/node-multi-hashing.git
+378 silly cache add parsed spec Result {
+378 silly cache add   raw: 'git://github.com/fancoder/node-multi-hashing.git',
+378 silly cache add   scope: null,
+378 silly cache add   name: null,
+378 silly cache add   rawSpec: 'git://github.com/fancoder/node-multi-hashing.git',
+378 silly cache add   spec: 'git://github.com/fancoder/node-multi-hashing.git',
+378 silly cache add   type: 'hosted',
+378 silly cache add   hosted:
+378 silly cache add    { type: 'github',
+378 silly cache add      ssh: 'git@github.com:fancoder/node-multi-hashing.git',
+378 silly cache add      sshUrl: 'git+ssh://git@github.com/fancoder/node-multi-hashing.git',
+378 silly cache add      httpsUrl: 'git+https://github.com/fancoder/node-multi-hashing.git',
+378 silly cache add      gitUrl: 'git://github.com/fancoder/node-multi-hashing.git',
+378 silly cache add      shortcut: 'github:fancoder/node-multi-hashing',
+378 silly cache add      directUrl: 'https://raw.githubusercontent.com/fancoder/node-multi-hashing/master/package.json' } }
+379 verbose addRemoteGit caching git://github.com/fancoder/node-multi-hashing.git
+380 verbose addRemoteGit git://github.com/fancoder/node-multi-hashing.git is a repository hosted by github
+381 silly tryClone cloning git://github.com/fancoder/node-multi-hashing.git via git://github.com/fancoder/node-multi-hashing.git
+382 verbose tryClone git-github-com-fancoder-node-multi-hashing-git-51b2c44d not in flight; caching
+383 verbose correctMkdir /home/indioystilo/.npm/_git-remotes correctMkdir not in flight; initializing
+384 silly cache add args [ 'git://github.com/fancoder/node-cryptonote-util.git', null ]
+385 verbose cache add spec git://github.com/fancoder/node-cryptonote-util.git
+386 silly cache add parsed spec Result {
+386 silly cache add   raw: 'git://github.com/fancoder/node-cryptonote-util.git',
+386 silly cache add   scope: null,
+386 silly cache add   name: null,
+386 silly cache add   rawSpec: 'git://github.com/fancoder/node-cryptonote-util.git',
+386 silly cache add   spec: 'git://github.com/fancoder/node-cryptonote-util.git',
+386 silly cache add   type: 'hosted',
+386 silly cache add   hosted:
+386 silly cache add    { type: 'github',
+386 silly cache add      ssh: 'git@github.com:fancoder/node-cryptonote-util.git',
+386 silly cache add      sshUrl: 'git+ssh://git@github.com/fancoder/node-cryptonote-util.git',
+386 silly cache add      httpsUrl: 'git+https://github.com/fancoder/node-cryptonote-util.git',
+386 silly cache add      gitUrl: 'git://github.com/fancoder/node-cryptonote-util.git',
+386 silly cache add      shortcut: 'github:fancoder/node-cryptonote-util',
+386 silly cache add      directUrl: 'https://raw.githubusercontent.com/fancoder/node-cryptonote-util/master/package.json' } }
+387 verbose addRemoteGit caching git://github.com/fancoder/node-cryptonote-util.git
+388 verbose addRemoteGit git://github.com/fancoder/node-cryptonote-util.git is a repository hosted by github
+389 silly tryClone cloning git://github.com/fancoder/node-cryptonote-util.git via git://github.com/fancoder/node-cryptonote-util.git
+390 verbose tryClone git-github-com-fancoder-node-cryptonote-util-git-aeea1c9c not in flight; caching
+391 verbose correctMkdir /home/indioystilo/.npm/_git-remotes correctMkdir not in flight; initializing
+392 info git [ 'clone',
+392 info git   '--template=/home/indioystilo/.npm/_git-remotes/_templates',
+392 info git   '--mirror',
+392 info git   'git://github.com/fancoder/node-multi-hashing.git',
+392 info git   '/home/indioystilo/.npm/_git-remotes/git-github-com-fancoder-node-multi-hashing-git-51b2c44d' ]
+393 info git [ 'clone',
+393 info git   '--template=/home/indioystilo/.npm/_git-remotes/_templates',
+393 info git   '--mirror',
+393 info git   'git://github.com/fancoder/node-cryptonote-util.git',
+393 info git   '/home/indioystilo/.npm/_git-remotes/git-github-com-fancoder-node-cryptonote-util-git-aeea1c9c' ]
+394 verbose mirrorRemote git://github.com/fancoder/node-cryptonote-util.git git clone git://github.com/fancoder/node-cryptonote-util.git
+395 verbose correctMkdir /home/indioystilo/.npm/_git-remotes correctMkdir not in flight; initializing
+396 verbose setPermissions git://github.com/fancoder/node-cryptonote-util.git set permissions on /home/indioystilo/.npm/_git-remotes/git-github-com-fancoder-node-cryptonote-util-git-aeea1c9c
+397 verbose resolveHead git://github.com/fancoder/node-cryptonote-util.git original treeish: master
+398 info git [ 'rev-list', '-n1', 'master' ]
+399 silly resolveHead git://github.com/fancoder/node-cryptonote-util.git resolved treeish: 73f7d00915310726c22d0a6d99ee070fca9adea5
+400 verbose resolveHead git://github.com/fancoder/node-cryptonote-util.git resolved Git URL: git://github.com/fancoder/node-cryptonote-util.git#73f7d00915310726c22d0a6d99ee070fca9adea5
+401 silly resolveHead Git working directory: /tmp/npm-22019-bf6098ec/git-cache-a00fe503fa78/73f7d00915310726c22d0a6d99ee070fca9adea5
+402 info git [ 'clone',
+402 info git   '/home/indioystilo/.npm/_git-remotes/git-github-com-fancoder-node-cryptonote-util-git-aeea1c9c',
+402 info git   '/tmp/npm-22019-bf6098ec/git-cache-a00fe503fa78/73f7d00915310726c22d0a6d99ee070fca9adea5' ]
+403 verbose cloneResolved git://github.com/fancoder/node-cryptonote-util.git clone Cloning into '/tmp/npm-22019-bf6098ec/git-cache-a00fe503fa78/73f7d00915310726c22d0a6d99ee070fca9adea5'...
+403 verbose cloneResolved done.
+404 info git [ 'checkout', '73f7d00915310726c22d0a6d99ee070fca9adea5' ]
+405 verbose checkoutTreeish git://github.com/fancoder/node-cryptonote-util.git checkout Note: checking out '73f7d00915310726c22d0a6d99ee070fca9adea5'.
+405 verbose checkoutTreeish
+405 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+405 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+405 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+405 verbose checkoutTreeish
+405 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+405 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+405 verbose checkoutTreeish
+405 verbose checkoutTreeish   git checkout -b <new-branch-name>
+405 verbose checkoutTreeish
+405 verbose checkoutTreeish HEAD is now at 73f7d00... Merge branch 'address_checking'
+406 verbose addLocalDirectory /home/indioystilo/.npm/cryptonote-util/0.0.1/package.tgz not in flight; packing
+407 verbose correctMkdir /home/indioystilo/.npm correctMkdir not in flight; initializing
+408 verbose tar pack [ '/home/indioystilo/.npm/cryptonote-util/0.0.1/package.tgz',
+408 verbose tar pack   '/tmp/npm-22019-bf6098ec/git-cache-a00fe503fa78/73f7d00915310726c22d0a6d99ee070fca9adea5' ]
+409 verbose tarball /home/indioystilo/.npm/cryptonote-util/0.0.1/package.tgz
+410 verbose folder /tmp/npm-22019-bf6098ec/git-cache-a00fe503fa78/73f7d00915310726c22d0a6d99ee070fca9adea5
+411 verbose mirrorRemote git://github.com/fancoder/node-multi-hashing.git git clone git://github.com/fancoder/node-multi-hashing.git
+412 verbose correctMkdir /home/indioystilo/.npm/_git-remotes correctMkdir not in flight; initializing
+413 verbose setPermissions git://github.com/fancoder/node-multi-hashing.git set permissions on /home/indioystilo/.npm/_git-remotes/git-github-com-fancoder-node-multi-hashing-git-51b2c44d
+414 verbose resolveHead git://github.com/fancoder/node-multi-hashing.git original treeish: master
+415 info git [ 'rev-list', '-n1', 'master' ]
+416 silly resolveHead git://github.com/fancoder/node-multi-hashing.git resolved treeish: ec00b7429b668b3366d80a8fa85e9c22b4792d70
+417 verbose resolveHead git://github.com/fancoder/node-multi-hashing.git resolved Git URL: git://github.com/fancoder/node-multi-hashing.git#ec00b7429b668b3366d80a8fa85e9c22b4792d70
+418 silly resolveHead Git working directory: /tmp/npm-22019-bf6098ec/git-cache-420c83f4d61a/ec00b7429b668b3366d80a8fa85e9c22b4792d70
+419 verbose addLocalTarball adding from inside cache /home/indioystilo/.npm/cryptonote-util/0.0.1/package.tgz
+420 verbose correctMkdir /home/indioystilo/.npm correctMkdir not in flight; initializing
+421 info git [ 'clone',
+421 info git   '/home/indioystilo/.npm/_git-remotes/git-github-com-fancoder-node-multi-hashing-git-51b2c44d',
+421 info git   '/tmp/npm-22019-bf6098ec/git-cache-420c83f4d61a/ec00b7429b668b3366d80a8fa85e9c22b4792d70' ]
+422 verbose addRemoteGit data._from: git://github.com/fancoder/node-cryptonote-util.git
+423 verbose addRemoteGit data._resolved: git://github.com/fancoder/node-cryptonote-util.git#73f7d00915310726c22d0a6d99ee070fca9adea5
+424 silly cache afterAdd cryptonote-util@0.0.1
+425 verbose afterAdd /home/indioystilo/.npm/cryptonote-util/0.0.1/package/package.json not in flight; writing
+426 verbose correctMkdir /home/indioystilo/.npm correctMkdir not in flight; initializing
+427 verbose cloneResolved git://github.com/fancoder/node-multi-hashing.git clone Cloning into '/tmp/npm-22019-bf6098ec/git-cache-420c83f4d61a/ec00b7429b668b3366d80a8fa85e9c22b4792d70'...
+427 verbose cloneResolved done.
+428 info git [ 'checkout', 'ec00b7429b668b3366d80a8fa85e9c22b4792d70' ]
+429 verbose afterAdd /home/indioystilo/.npm/cryptonote-util/0.0.1/package/package.json written
+430 silly install resolved [ { name: 'cryptonote-util',
+430 silly install resolved     version: '0.0.1',
+430 silly install resolved     main: 'cryptonote',
+430 silly install resolved     author: { name: 'LucasJones', email: 'lucasjonesdev@hotmail.co.uk' },
+430 silly install resolved     repository:
+430 silly install resolved      { type: 'git',
+430 silly install resolved        url: 'git+https://github.com/LucasJones/node-cryptonote-util.git' },
+430 silly install resolved     dependencies: { bindings: '*' },
+430 silly install resolved     keywords: [ 'cryptonight', 'cryptonote' ],
+430 silly install resolved     scripts: { install: 'node-gyp rebuild' },
+430 silly install resolved     gypfile: true,
+430 silly install resolved     gitHead: '73f7d00915310726c22d0a6d99ee070fca9adea5',
+430 silly install resolved     readme: 'Node-Cryptonote-Util\n====================\n\nDependencies\n------------\n\n* Boost (http://www.boost.org/)',
+430 silly install resolved     readmeFilename: 'README.md',
+430 silly install resolved     description: 'Node-Cryptonote-Util ====================',
+430 silly install resolved     bugs: { url: 'https://github.com/LucasJones/node-cryptonote-util/issues' },
+430 silly install resolved     homepage: 'https://github.com/LucasJones/node-cryptonote-util#readme',
+430 silly install resolved     _id: 'cryptonote-util@0.0.1',
+430 silly install resolved     _shasum: '91e10a809392b96b5740471b4a88f73c7bebfede',
+430 silly install resolved     _from: 'git://github.com/fancoder/node-cryptonote-util.git',
+430 silly install resolved     _resolved: 'git://github.com/fancoder/node-cryptonote-util.git#73f7d00915310726c22d0a6d99ee070fca9adea5' } ]
+431 info install cryptonote-util@0.0.1 into /home/indioystilo/pool
+432 info installOne cryptonote-util@0.0.1
+433 verbose installOne of cryptonote-util to /home/indioystilo/pool not in flight; installing
+434 verbose correctMkdir /home/indioystilo/.npm/_locks correctMkdir not in flight; initializing
+435 verbose lock using /home/indioystilo/.npm/_locks/cryptonote-util-86386134383ccbb9.lock for /home/indioystilo/pool/node_modules/cryptonote-util
+436 silly install write writing cryptonote-util 0.0.1 to /home/indioystilo/pool/node_modules/cryptonote-util
+437 verbose unbuild node_modules/cryptonote-util
+438 silly gentlyRm /home/indioystilo/pool/node_modules/cryptonote-util is being purged from base /home/indioystilo/pool
+439 verbose gentlyRm don't care about contents; nuking /home/indioystilo/pool/node_modules/cryptonote-util
+440 verbose tar unpack /home/indioystilo/.npm/cryptonote-util/0.0.1/package.tgz
+441 verbose tar unpacking to /home/indioystilo/pool/node_modules/cryptonote-util
+442 silly gentlyRm /home/indioystilo/pool/node_modules/cryptonote-util is being purged
+443 verbose gentlyRm don't care about contents; nuking /home/indioystilo/pool/node_modules/cryptonote-util
+444 silly gunzTarPerm modes [ '775', '664' ]
+445 verbose checkoutTreeish git://github.com/fancoder/node-multi-hashing.git checkout Note: checking out 'ec00b7429b668b3366d80a8fa85e9c22b4792d70'.
+445 verbose checkoutTreeish
+445 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+445 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+445 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+445 verbose checkoutTreeish
+445 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+445 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+445 verbose checkoutTreeish
+445 verbose checkoutTreeish   git checkout -b <new-branch-name>
+445 verbose checkoutTreeish
+445 verbose checkoutTreeish HEAD is now at ec00b74... Initial FRESH support
+446 silly gunzTarPerm extractEntry package.json
+447 silly gunzTarPerm extractEntry README.md
+448 silly gunzTarPerm extractEntry index.js
+449 verbose addLocalDirectory /home/indioystilo/.npm/multi-hashing/0.0.9/package.tgz not in flight; packing
+450 verbose correctMkdir /home/indioystilo/.npm correctMkdir not in flight; initializing
+451 verbose tar pack [ '/home/indioystilo/.npm/multi-hashing/0.0.9/package.tgz',
+451 verbose tar pack   '/tmp/npm-22019-bf6098ec/git-cache-420c83f4d61a/ec00b7429b668b3366d80a8fa85e9c22b4792d70' ]
+452 verbose tarball /home/indioystilo/.npm/multi-hashing/0.0.9/package.tgz
+453 verbose folder /tmp/npm-22019-bf6098ec/git-cache-420c83f4d61a/ec00b7429b668b3366d80a8fa85e9c22b4792d70
+454 silly gunzTarPerm extractEntry .travis.yml
+455 silly gunzTarPerm extractEntry binding.gyp
+456 silly gunzTarPerm extractEntry src/common/int-util.h
+457 silly gunzTarPerm extractEntry src/common/base58.cpp
+458 silly gunzTarPerm extractEntry src/common/boost_serialization_helper.h
+459 silly gunzTarPerm extractEntry src/common/command_line.cpp
+460 silly gunzTarPerm extractEntry src/common/command_line.h
+461 silly gunzTarPerm extractEntry src/common/base58.h
+462 silly gunzTarPerm extractEntry src/common/pod-class.h
+463 silly gunzTarPerm extractEntry src/common/unordered_containers_boost_serialization.h
+464 silly gunzTarPerm extractEntry src/common/util.cpp
+465 silly gunzTarPerm extractEntry src/common/util.h
+466 silly gunzTarPerm extractEntry src/common/varint.h
+467 silly gunzTarPerm extractEntry src/contrib/epee/README.md
+468 silly gunzTarPerm extractEntry src/contrib/epee/LICENSE.txt
+469 silly gunzTarPerm extractEntry src/contrib/epee/demo/.npmignore
+470 silly gunzTarPerm extractEntry src/contrib/epee/demo/CMakeLists.txt
+471 silly gunzTarPerm extractEntry src/contrib/epee/demo/README.txt
+472 silly gunzTarPerm extractEntry src/contrib/epee/demo/demo_http_server/demo_http_server.cpp
+473 silly gunzTarPerm extractEntry src/contrib/epee/demo/demo_http_server/demo_http_server.h
+474 silly gunzTarPerm extractEntry src/contrib/epee/demo/demo_http_server/stdafx.cpp
+475 silly gunzTarPerm extractEntry src/contrib/epee/demo/demo_http_server/stdafx.h
+476 silly gunzTarPerm extractEntry src/contrib/epee/demo/demo_http_server/targetver.h
+477 silly gunzTarPerm extractEntry src/contrib/epee/demo/demo_levin_server/demo_levin_server.cpp
+478 silly gunzTarPerm extractEntry src/contrib/epee/demo/demo_levin_server/demo_levin_server.h
+479 silly gunzTarPerm extractEntry src/contrib/epee/demo/demo_levin_server/stdafx.cpp
+480 silly gunzTarPerm extractEntry src/contrib/epee/demo/demo_levin_server/stdafx.h
+481 silly gunzTarPerm extractEntry src/contrib/epee/demo/demo_levin_server/targetver.h
+482 silly gunzTarPerm extractEntry src/contrib/epee/demo/generate_gcc.sh
+483 silly gunzTarPerm extractEntry src/contrib/epee/demo/generate_vc_proj.bat
+484 silly gunzTarPerm extractEntry src/contrib/epee/demo/iface/transport_defs.h
+485 silly gunzTarPerm extractEntry src/contrib/epee/include/reg_exp_definer.h
+486 silly gunzTarPerm extractEntry src/contrib/epee/include/ado_db_helper.h
+487 silly gunzTarPerm extractEntry src/contrib/epee/include/copyable_atomic.h
+488 silly gunzTarPerm extractEntry src/contrib/epee/include/file_io_utils.h
+489 silly gunzTarPerm extractEntry src/contrib/epee/include/global_stream_operators.h
+490 silly gunzTarPerm extractEntry src/contrib/epee/include/gzip_encoding.h
+491 silly gunzTarPerm extractEntry src/contrib/epee/include/hmac-md5.h
+492 silly gunzTarPerm extractEntry src/contrib/epee/include/include_base_utils.h
+493 silly gunzTarPerm extractEntry src/contrib/epee/include/math_helper.h
+494 silly gunzTarPerm extractEntry src/contrib/epee/include/md5_l.h
+495 silly gunzTarPerm extractEntry src/contrib/epee/include/md5_l.inl
+496 silly gunzTarPerm extractEntry src/contrib/epee/include/md5global.h
+497 silly gunzTarPerm extractEntry src/contrib/epee/include/misc_language.h
+498 silly gunzTarPerm extractEntry src/contrib/epee/include/misc_log_ex.h
+499 silly gunzTarPerm extractEntry src/contrib/epee/include/misc_os_dependent.h
+500 silly gunzTarPerm extractEntry src/contrib/epee/include/net/levin_client.inl
+501 silly gunzTarPerm extractEntry src/contrib/epee/include/net/abstract_tcp_server.h
+502 silly gunzTarPerm extractEntry src/contrib/epee/include/net/abstract_tcp_server2.inl
+503 silly gunzTarPerm extractEntry src/contrib/epee/include/net/abstract_tcp_server_cp.h
+504 silly gunzTarPerm extractEntry src/contrib/epee/include/net/abstract_tcp_server_cp.inl
+505 silly gunzTarPerm extractEntry src/contrib/epee/include/net/http_base.h
+506 silly gunzTarPerm extractEntry src/contrib/epee/include/net/http_client.h
+507 silly gunzTarPerm extractEntry src/contrib/epee/include/net/http_client_abstract_invoke.h
+508 silly gunzTarPerm extractEntry src/contrib/epee/include/net/http_client_base.h
+509 silly gunzTarPerm extractEntry src/contrib/epee/include/net/http_client_via_api_helper.h
+510 silly gunzTarPerm extractEntry src/contrib/epee/include/net/http_protocol_handler.h
+511 silly gunzTarPerm extractEntry src/contrib/epee/include/net/http_protocol_handler.inl
+512 silly gunzTarPerm extractEntry src/contrib/epee/include/net/http_server_cp.h
+513 silly gunzTarPerm extractEntry src/contrib/epee/include/net/http_server_cp2.h
+514 silly gunzTarPerm extractEntry src/contrib/epee/include/net/http_server_handlers_map2.h
+515 silly gunzTarPerm extractEntry src/contrib/epee/include/net/http_server_impl_base.h
+516 silly gunzTarPerm extractEntry src/contrib/epee/include/net/http_server_thread_per_connect.h
+517 silly gunzTarPerm extractEntry src/contrib/epee/include/net/levin_base.h
+518 silly gunzTarPerm extractEntry src/contrib/epee/include/net/levin_client.h
+519 silly gunzTarPerm extractEntry src/contrib/epee/include/net/abstract_tcp_server2.h
+520 silly gunzTarPerm extractEntry src/contrib/epee/include/net/levin_client_async.h
+521 silly gunzTarPerm extractEntry src/contrib/epee/include/net/levin_client_async.inl
+522 silly gunzTarPerm extractEntry src/contrib/epee/include/net/levin_helper.h
+523 silly gunzTarPerm extractEntry src/contrib/epee/include/net/levin_protocol_handler.h
+524 silly gunzTarPerm extractEntry src/contrib/epee/include/net/levin_protocol_handler_async.h
+525 silly gunzTarPerm extractEntry src/contrib/epee/include/net/levin_server_cp.h
+526 silly gunzTarPerm extractEntry src/contrib/epee/include/net/levin_server_cp2.h
+527 silly gunzTarPerm extractEntry src/contrib/epee/include/net/local_ip.h
+528 silly gunzTarPerm extractEntry src/contrib/epee/include/net/multiprotocols_server.h
+529 silly gunzTarPerm extractEntry src/contrib/epee/include/net/munin_connection_handler.h
+530 silly gunzTarPerm extractEntry src/contrib/epee/include/net/munin_node_server.h
+531 silly gunzTarPerm extractEntry src/contrib/epee/include/net/net_helper.h
+532 silly gunzTarPerm extractEntry src/contrib/epee/include/net/net_parse_helpers.h
+533 silly gunzTarPerm extractEntry src/contrib/epee/include/net/net_utils_base.h
+534 silly gunzTarPerm extractEntry src/contrib/epee/include/net/protocol_switcher.h
+535 silly gunzTarPerm extractEntry src/contrib/epee/include/net/rpc_method_name.h
+536 silly gunzTarPerm extractEntry src/contrib/epee/include/net/smtp.h
+537 silly gunzTarPerm extractEntry src/contrib/epee/include/net/smtp.inl
+538 silly gunzTarPerm extractEntry src/contrib/epee/include/net/smtp_helper.h
+539 silly gunzTarPerm extractEntry src/contrib/epee/include/pragma_comp_defs.h
+540 silly gunzTarPerm extractEntry src/contrib/epee/include/profile_tools.h
+541 silly gunzTarPerm extractEntry src/contrib/epee/include/console_handler.h
+542 silly gunzTarPerm extractEntry src/contrib/epee/include/reg_utils.h
+543 silly gunzTarPerm extractEntry src/contrib/epee/include/serialization/enableable.h
+544 silly gunzTarPerm extractEntry src/contrib/epee/include/serialization/keyvalue_serialization.h
+545 silly gunzTarPerm extractEntry src/contrib/epee/include/serialization/keyvalue_serialization_overloads.h
+546 silly gunzTarPerm extractEntry src/contrib/epee/include/serialization/serialize_base.h
+547 silly gunzTarPerm extractEntry src/contrib/epee/include/service_impl_base.h
+548 silly gunzTarPerm extractEntry src/contrib/epee/include/sha1.h
+549 silly gunzTarPerm extractEntry src/contrib/epee/include/sha1.inl
+550 silly gunzTarPerm extractEntry src/contrib/epee/include/soci_helper.h
+551 silly gunzTarPerm extractEntry src/contrib/epee/include/static_initializer.h
+552 silly gunzTarPerm extractEntry src/contrib/epee/include/storages/portable_storage_base.h
+553 silly gunzTarPerm extractEntry src/contrib/epee/include/storages/activity_notifier.h
+554 silly gunzTarPerm extractEntry src/contrib/epee/include/storages/gzipped_inmemstorage.h
+555 silly gunzTarPerm extractEntry src/contrib/epee/include/storages/http_abstract_invoke.h
+556 silly gunzTarPerm extractEntry src/contrib/epee/include/storages/levin_abstract_invoke2.h
+557 silly gunzTarPerm extractEntry src/contrib/epee/include/storages/parserse_base_utils.h
+558 silly gunzTarPerm extractEntry src/contrib/epee/include/storages/portable_storage.h
+559 silly gunzTarPerm extractEntry src/contrib/epee/include/storages/crypted_storage.h
+560 silly gunzTarPerm extractEntry src/contrib/epee/include/storages/portable_storage_from_bin.h
+561 silly gunzTarPerm extractEntry src/contrib/epee/include/storages/portable_storage_from_json.h
+562 silly gunzTarPerm extractEntry src/contrib/epee/include/storages/portable_storage_template_helper.h
+563 silly gunzTarPerm extractEntry src/contrib/epee/include/storages/portable_storage_to_bin.h
+564 silly gunzTarPerm extractEntry src/contrib/epee/include/storages/portable_storage_to_json.h
+565 silly gunzTarPerm extractEntry src/contrib/epee/include/storages/portable_storage_val_converters.h
+566 silly gunzTarPerm extractEntry src/contrib/epee/include/string_coding.h
+567 silly gunzTarPerm extractEntry src/contrib/epee/include/string_tools.h
+568 silly gunzTarPerm extractEntry src/contrib/epee/include/syncobj.h
+569 silly gunzTarPerm extractEntry src/contrib/epee/include/time_helper.h
+570 silly gunzTarPerm extractEntry src/contrib/epee/include/tiny_ini.h
+571 silly gunzTarPerm extractEntry src/contrib/epee/include/to_nonconst_iterator.h
+572 silly gunzTarPerm extractEntry src/contrib/epee/include/warnings.h
+573 silly gunzTarPerm extractEntry src/contrib/epee/include/winobj.h
+574 silly gunzTarPerm extractEntry src/contrib/epee/include/zlib_helper.h
+575 silly gunzTarPerm extractEntry src/contrib/epee/tests/.npmignore
+576 silly gunzTarPerm extractEntry src/contrib/epee/tests/data/storages/invalid_storage_1.bin
+577 silly gunzTarPerm extractEntry src/contrib/epee/tests/data/storages/invalid_storage_2.bin
+578 silly gunzTarPerm extractEntry src/contrib/epee/tests/data/storages/invalid_storage_3.bin
+579 silly gunzTarPerm extractEntry src/contrib/epee/tests/data/storages/invalid_storage_4.bin
+580 silly gunzTarPerm extractEntry src/contrib/epee/tests/data/storages/valid_storage.bin
+581 silly gunzTarPerm extractEntry src/contrib/epee/tests/generate_vc_proj.bat
+582 silly gunzTarPerm extractEntry src/contrib/epee/tests/src/CMakeLists.txt
+583 silly gunzTarPerm extractEntry src/contrib/epee/tests/src/misc/test_math.h
+584 silly gunzTarPerm extractEntry src/contrib/epee/tests/src/net/test_net.h
+585 silly gunzTarPerm extractEntry src/contrib/epee/tests/src/storages/portable_storages_test.h
+586 silly gunzTarPerm extractEntry src/contrib/epee/tests/src/storages/storage_tests.h
+587 silly gunzTarPerm extractEntry src/contrib/epee/tests/src/tests.cpp
+588 silly gunzTarPerm extractEntry src/crypto/hash-ops.h
+589 silly gunzTarPerm extractEntry src/crypto/blake256.c
+590 silly gunzTarPerm extractEntry src/crypto/chacha8.c
+591 silly gunzTarPerm extractEntry src/crypto/chacha8.h
+592 silly gunzTarPerm extractEntry src/crypto/crypto-ops-data.c
+593 silly gunzTarPerm extractEntry src/crypto/crypto-ops.c
+594 silly gunzTarPerm extractEntry src/crypto/crypto-ops.h
+595 silly gunzTarPerm extractEntry src/crypto/crypto.cpp
+596 silly gunzTarPerm extractEntry src/crypto/crypto.h
+597 silly gunzTarPerm extractEntry src/crypto/generic-ops.h
+598 silly gunzTarPerm extractEntry src/crypto/groestl.c
+599 silly gunzTarPerm extractEntry src/crypto/groestl.h
+600 silly gunzTarPerm extractEntry src/crypto/groestl_tables.h
+601 silly gunzTarPerm extractEntry src/crypto/hash-extra-blake.c
+602 silly gunzTarPerm extractEntry src/crypto/hash-extra-groestl.c
+603 silly gunzTarPerm extractEntry src/crypto/hash-extra-jh.c
+604 silly gunzTarPerm extractEntry src/crypto/hash-extra-skein.c
+605 silly gunzTarPerm extractEntry src/crypto/blake256.h
+606 silly gunzTarPerm extractEntry src/crypto/hash.c
+607 silly gunzTarPerm extractEntry src/crypto/hash.h
+608 silly gunzTarPerm extractEntry src/crypto/initializer.h
+609 silly gunzTarPerm extractEntry src/crypto/jh.c
+610 silly gunzTarPerm extractEntry src/crypto/jh.h
+611 silly gunzTarPerm extractEntry src/crypto/keccak.c
+612 silly gunzTarPerm extractEntry src/crypto/keccak.h
+613 silly gunzTarPerm extractEntry src/crypto/oaes_config.h
+614 silly gunzTarPerm extractEntry src/crypto/oaes_lib.c
+615 silly gunzTarPerm extractEntry src/crypto/oaes_lib.h
+616 silly gunzTarPerm extractEntry src/crypto/random.c
+617 silly gunzTarPerm extractEntry src/crypto/random.h
+618 silly gunzTarPerm extractEntry src/crypto/skein.c
+619 silly gunzTarPerm extractEntry src/crypto/skein.h
+620 silly gunzTarPerm extractEntry src/crypto/skein_port.h
+621 silly gunzTarPerm extractEntry src/crypto/slow-hash.c
+622 silly gunzTarPerm extractEntry src/crypto/tree-hash.c
+623 silly gunzTarPerm extractEntry src/cryptonote_config.h
+624 silly gunzTarPerm extractEntry src/cryptonote_core/cryptonote_boost_serialization.h
+625 silly gunzTarPerm extractEntry src/cryptonote_core/account.cpp
+626 silly gunzTarPerm extractEntry src/cryptonote_core/account_boost_serialization.h
+627 silly gunzTarPerm extractEntry src/cryptonote_core/blockchain_storage.cpp
+628 silly gunzTarPerm extractEntry src/cryptonote_core/blockchain_storage.h
+629 silly gunzTarPerm extractEntry src/cryptonote_core/blockchain_storage_boost_serialization.h
+630 silly gunzTarPerm extractEntry src/cryptonote_core/checkpoints.cpp
+631 silly gunzTarPerm extractEntry src/cryptonote_core/checkpoints.h
+632 silly gunzTarPerm extractEntry src/cryptonote_core/checkpoints_create.h
+633 silly gunzTarPerm extractEntry src/cryptonote_core/connection_context.h
+634 silly gunzTarPerm extractEntry src/cryptonote_core/cryptonote_basic.h
+635 silly gunzTarPerm extractEntry src/cryptonote_core/cryptonote_basic_impl.cpp
+636 silly gunzTarPerm extractEntry src/cryptonote_core/cryptonote_basic_impl.h
+637 silly gunzTarPerm extractEntry src/cryptonote_core/account.h
+638 silly gunzTarPerm extractEntry src/cryptonote_core/cryptonote_core.cpp
+639 silly gunzTarPerm extractEntry src/cryptonote_core/cryptonote_core.h
+640 silly gunzTarPerm extractEntry src/cryptonote_core/cryptonote_format_utils.cpp
+641 silly gunzTarPerm extractEntry src/cryptonote_core/cryptonote_format_utils.h
+642 silly gunzTarPerm extractEntry src/cryptonote_core/cryptonote_stat_info.h
+643 silly gunzTarPerm extractEntry src/cryptonote_core/difficulty.cpp
+644 silly gunzTarPerm extractEntry src/cryptonote_core/difficulty.h
+645 silly gunzTarPerm extractEntry src/cryptonote_core/miner.cpp
+646 silly gunzTarPerm extractEntry src/cryptonote_core/miner.h
+647 silly gunzTarPerm extractEntry src/cryptonote_core/tx_extra.h
+648 silly gunzTarPerm extractEntry src/cryptonote_core/tx_pool.cpp
+649 silly gunzTarPerm extractEntry src/cryptonote_core/tx_pool.h
+650 silly gunzTarPerm extractEntry src/cryptonote_core/verification_context.h
+651 silly gunzTarPerm extractEntry src/cryptonote_protocol/blobdatatype.h
+652 silly gunzTarPerm extractEntry src/cryptonote_protocol/cryptonote_protocol_defs.h
+653 silly gunzTarPerm extractEntry src/cryptonote_protocol/cryptonote_protocol_handler.h
+654 silly gunzTarPerm extractEntry src/cryptonote_protocol/cryptonote_protocol_handler.inl
+655 silly gunzTarPerm extractEntry src/cryptonote_protocol/cryptonote_protocol_handler_common.h
+656 silly gunzTarPerm extractEntry src/main.cc
+657 silly gunzTarPerm extractEntry src/p2p/net_node.h
+658 silly gunzTarPerm extractEntry src/p2p/net_node.inl
+659 silly gunzTarPerm extractEntry src/p2p/net_node_common.h
+660 silly gunzTarPerm extractEntry src/p2p/net_peerlist.h
+661 silly gunzTarPerm extractEntry src/p2p/net_peerlist_boost_serialization.h
+662 silly gunzTarPerm extractEntry src/p2p/p2p_networks.h
+663 silly gunzTarPerm extractEntry src/p2p/p2p_protocol_defs.h
+664 silly gunzTarPerm extractEntry src/p2p/stdafx.h
+665 silly gunzTarPerm extractEntry src/serialization/binary_archive.h
+666 silly gunzTarPerm extractEntry src/serialization/binary_utils.h
+667 silly gunzTarPerm extractEntry src/serialization/crypto.h
+668 silly gunzTarPerm extractEntry src/serialization/debug_archive.h
+669 silly gunzTarPerm extractEntry src/serialization/json_archive.h
+670 silly gunzTarPerm extractEntry src/serialization/json_utils.h
+671 silly gunzTarPerm extractEntry src/serialization/serialization.h
+672 silly gunzTarPerm extractEntry src/serialization/string.h
+673 silly gunzTarPerm extractEntry src/serialization/variant.h
+674 silly gunzTarPerm extractEntry src/serialization/vector.h
+675 verbose write writing to /home/indioystilo/pool/node_modules/cryptonote-util/package.json
+676 info preinstall cryptonote-util@0.0.1
+677 verbose readDependencies loading dependencies from /home/indioystilo/pool/node_modules/cryptonote-util/package.json
+678 verbose readDependencies loading dependencies from /home/indioystilo/pool/node_modules/cryptonote-util/package.json
+679 silly install resolved []
+680 verbose about to build /home/indioystilo/pool/node_modules/cryptonote-util
+681 info build /home/indioystilo/pool/node_modules/cryptonote-util
+682 info linkStuff cryptonote-util@0.0.1
+683 silly linkStuff cryptonote-util@0.0.1 has /home/indioystilo/pool/node_modules as its parent node_modules
+684 verbose linkBins cryptonote-util@0.0.1
+685 verbose linkMans cryptonote-util@0.0.1
+686 verbose rebuildBundles cryptonote-util@0.0.1
+687 info install cryptonote-util@0.0.1
+688 verbose unsafe-perm in lifecycle true
+689 verbose addLocalTarball adding from inside cache /home/indioystilo/.npm/multi-hashing/0.0.9/package.tgz
+690 verbose correctMkdir /home/indioystilo/.npm correctMkdir not in flight; initializing
+691 verbose addRemoteGit data._from: git://github.com/fancoder/node-multi-hashing.git
+692 verbose addRemoteGit data._resolved: git://github.com/fancoder/node-multi-hashing.git#ec00b7429b668b3366d80a8fa85e9c22b4792d70
+693 silly cache afterAdd multi-hashing@0.0.9
+694 verbose afterAdd /home/indioystilo/.npm/multi-hashing/0.0.9/package/package.json not in flight; writing
+695 verbose correctMkdir /home/indioystilo/.npm correctMkdir not in flight; initializing
+696 verbose afterAdd /home/indioystilo/.npm/multi-hashing/0.0.9/package/package.json written
+697 silly install resolved [ { name: 'multi-hashing',
+697 silly install resolved     version: '0.0.9',
+697 silly install resolved     main: 'multihashing',
+697 silly install resolved     author: { name: 'Matthew Little', email: 'zone117x@gmail.com' },
+697 silly install resolved     repository:
+697 silly install resolved      { type: 'git',
+697 silly install resolved        url: 'git+https://github.com/zone117x/node-multi-hashing.git' },
+697 silly install resolved     dependencies: { bindings: '*' },
+697 silly install resolved     keywords:
+697 silly install resolved      [ 'scrypt',
+697 silly install resolved        'scryptjane',
+697 silly install resolved        'script-n',
+697 silly install resolved        'x11',
+697 silly install resolved        'quark',
+697 silly install resolved        'keccak_hash',
+697 silly install resolved        'skein',
+697 silly install resolved        'bcrypt',
+697 silly install resolved        'keccak',
+697 silly install resolved        'blake',
+697 silly install resolved        'shavite',
+697 silly install resolved        'fugue',
+697 silly install resolved        'sha1' ],
+697 silly install resolved     scripts: { install: 'node-gyp rebuild' },
+697 silly install resolved     gypfile: true,
+697 silly install resolved     gitHead: 'ec00b7429b668b3366d80a8fa85e9c22b4792d70',
+697 silly install resolved     readme: 'node-multi-hashing\n===============\n\n[![Build Status](https://travis-ci.org/zone117x/node-multi-hashing.png?branch=master)](https://travis-ci.org/zone117x/node-multi-hashing)\n\n[![NPM](https://nodei.co/npm/multi-hashing.png?downloads=true&stars=true)](https://nodei.co/npm/multi-hashing/)\n\nCryptocurrency hashing functions for node.js.\n\n\nAlgorithms\n----------\n* quark\n* x11\n* x13\n* nist5\n* scrypt\n* scryptn\n* scryptjane\n* keccak\n* bcrypt\n* skein\n* groestl\n* blake\n* fugue\n* qubit\n* hefty1\n* shavite3\n* cryptonight\n* boolberry\n\nUsage\n-----\n\nInstall\n\n```bash\nnpm install multi-hashing\n```\n\nSo far this native Node.js addon can do the following hashing algos\n\n```javascript\nvar multiHashing = require(\'multi-hashing\');\n\nvar algorithms = [\'quark\', \'x11\', \'scrypt\', \'scryptn\', \'scryptjane\', \'keccak\', \'bcrypt\', \'skein\', \'blake\'];\n\nvar data = new Buffer("7000000001e980924e4e1109230383e66d62945ff8e749903bea4336755c00000000000051928aff1b4d72416173a8c3948159a09a73ac3bb556aa6bfbcad1a85da7f4c1d13350531e24031b939b9e2b", "hex");\n\nvar hashedData = algorithms.map(function(algo){\n    if (algo === \'scryptjane\'){\n        //scryptjane needs block.nTime and nChainStartTime (found in coin source)\n        var yaCoinChainStartTime = 1367991200;\n        var nTime = Math.round(Date.now() / 1000);\n        return multiHashing[algo](data, nTime, yaCoinChainStartTime);\n    }\n    else{\n        return multiHashing[algo](data);\n    }\n});\n\n\nconsole.log(hashedData);\n//<SlowBuffer 0b de 16 ef 2d 92 e4 35 65 c6 6c d8 92 d9 66 b4 3d 65 ..... >\n\n\n```\n\nCredits\n-------\n* [NSA](http://www.nsa.gov/) and [NIST](http://www.nist.gov/) for creation or sponsoring creation of SHA2 and SHA3 algos\n* [Keccak](http://en.wikipedia.org/wiki/Keccak) - Guido Bertoni, Joan Daemen, Michaël Peeters, and Gilles Van Assche\n* [Skein](http://en.wikipedia.org/wiki/Skein_(hash_function)) - Bruce Schneier, Stefan Lucks, Niels Ferguson, Doug Whiting, Mihir Bellare, Tadayoshi Kohno, Jon Callas and Jesse Walker.\n* [BLAKE](http://en.wikipedia.org/wiki/BLAKE_(hash_function)) - Jean-Philippe Aumasson, Luca Henzen, Willi Meier, and Raphael C.-W. Phan\n* [Grøstl](http://en.wikipedia.org/wiki/Gr%C3%B8stl) - Praveen Gauravaram, Lars Knudsen, Krystian Matusiewicz, Florian Mendel, Christian Rechberger, Martin Schläffer, and Søren S. Thomsen\n* [JH](http://en.wikipedia.org/wiki/JH_(hash_function)) - Hongjun Wu\n* [Fugue](http://en.wikipedia.org/wiki/Fugue_(hash_function)) - Shai Halevi, William E. Hall, and Charanjit S. Jutla\n* [scrypt](http://en.wikipedia.org/wiki/Scrypt) - Colin Percival\n* [bcrypt](http://en.wikipedia.org/wiki/Bcrypt) - Niels Provos and David Mazières\n* [X11](http://www.darkcoin.io/), [Hefty1](http://heavycoin.github.io/about.html), [Quark](http://www.qrk.cc/) creators (they just mixed together a bunch of the above algos)\n',
+697 silly install resolved     readmeFilename: 'README.md',
+697 silly install resolved     description: 'node-multi-hashing ===============',
+697 silly install resolved     bugs: { url: 'https://github.com/zone117x/node-multi-hashing/issues' },
+697 silly install resolved     homepage: 'https://github.com/zone117x/node-multi-hashing#readme',
+697 silly install resolved     _id: 'multi-hashing@0.0.9',
+697 silly install resolved     _shasum: 'd06293855e61091a04d9c03b8281e9ebed8b79f6',
+697 silly install resolved     _from: 'git://github.com/fancoder/node-multi-hashing.git',
+697 silly install resolved     _resolved: 'git://github.com/fancoder/node-multi-hashing.git#ec00b7429b668b3366d80a8fa85e9c22b4792d70' } ]
+698 info install multi-hashing@0.0.9 into /home/indioystilo/pool
+699 info installOne multi-hashing@0.0.9
+700 verbose installOne of multi-hashing to /home/indioystilo/pool not in flight; installing
+701 verbose correctMkdir /home/indioystilo/.npm/_locks correctMkdir not in flight; initializing
+702 verbose lock using /home/indioystilo/.npm/_locks/multi-hashing-ccc6e6accc8ebdc7.lock for /home/indioystilo/pool/node_modules/multi-hashing
+703 silly install write writing multi-hashing 0.0.9 to /home/indioystilo/pool/node_modules/multi-hashing
+704 verbose unbuild node_modules/multi-hashing
+705 info preuninstall multi-hashing@0.0.9
+706 info uninstall multi-hashing@0.0.9
+707 verbose unbuild rmStuff multi-hashing@0.0.9 from /home/indioystilo/pool/node_modules
+708 info postuninstall multi-hashing@0.0.9
+709 silly gentlyRm /home/indioystilo/pool/node_modules/multi-hashing is being purged from base /home/indioystilo/pool
+710 verbose gentlyRm don't care about contents; nuking /home/indioystilo/pool/node_modules/multi-hashing
+711 silly vacuum-fs purging /home/indioystilo/pool/node_modules/multi-hashing
+712 silly vacuum-fs quitting because other entries in /home/indioystilo/pool/node_modules
+713 verbose tar unpack /home/indioystilo/.npm/multi-hashing/0.0.9/package.tgz
+714 verbose tar unpacking to /home/indioystilo/pool/node_modules/multi-hashing
+715 silly gentlyRm /home/indioystilo/pool/node_modules/multi-hashing is being purged
+716 verbose gentlyRm don't care about contents; nuking /home/indioystilo/pool/node_modules/multi-hashing
+717 silly gunzTarPerm modes [ '775', '664' ]
+718 silly gunzTarPerm extractEntry package.json
+719 silly gunzTarPerm extractEntry README.md
+720 silly gunzTarPerm extractEntry index.js
+721 silly gunzTarPerm extractEntry nist5.h
+722 silly gunzTarPerm extractEntry binding.gyp
+723 silly gunzTarPerm extractEntry blake.c
+724 silly gunzTarPerm extractEntry blake.h
+725 silly gunzTarPerm extractEntry boolberry.cc
+726 silly gunzTarPerm extractEntry boolberry.h
+727 silly gunzTarPerm extractEntry crypto/cryptonote_core/account.cpp
+728 silly gunzTarPerm extractEntry crypto/cryptonote_core/account.h
+729 silly gunzTarPerm extractEntry crypto/cryptonote_core/cryptonote_basic_impl.cpp
+730 silly gunzTarPerm extractEntry crypto/cryptonote_core/cryptonote_basic_impl.h
+731 silly gunzTarPerm extractEntry crypto/cryptonote_core/cryptonote_format_utils.cpp
+732 silly gunzTarPerm extractEntry crypto/cryptonote_core/cryptonote_format_utils.h
+733 silly gunzTarPerm extractEntry crypto/aesb.c
+734 silly gunzTarPerm extractEntry crypto/c_blake256.h
+735 silly gunzTarPerm extractEntry crypto/c_groestl.c
+736 silly gunzTarPerm extractEntry crypto/c_groestl.h
+737 silly gunzTarPerm extractEntry crypto/c_jh.c
+738 silly gunzTarPerm extractEntry crypto/c_jh.h
+739 silly gunzTarPerm extractEntry crypto/c_keccak.c
+740 silly gunzTarPerm extractEntry crypto/c_keccak.h
+741 silly gunzTarPerm extractEntry crypto/c_skein.c
+742 silly gunzTarPerm extractEntry crypto/c_skein.h
+743 silly gunzTarPerm extractEntry crypto/crypto.h
+744 silly gunzTarPerm extractEntry crypto/c_blake256.c
+745 silly gunzTarPerm extractEntry crypto/cryptonote_protocol/cryptonote_protocol_defs.h
+746 silly gunzTarPerm extractEntry crypto/groestl_tables.h
+747 silly gunzTarPerm extractEntry crypto/hash-ops.h
+748 silly gunzTarPerm extractEntry crypto/hash.c
+749 silly gunzTarPerm extractEntry crypto/hash.h
+750 silly gunzTarPerm extractEntry crypto/int-util.h
+751 silly gunzTarPerm extractEntry crypto/oaes_config.h
+752 silly gunzTarPerm extractEntry crypto/oaes_lib.c
+753 silly gunzTarPerm extractEntry crypto/oaes_lib.h
+754 silly gunzTarPerm extractEntry crypto/skein_port.h
+755 silly gunzTarPerm extractEntry crypto/wild_keccak.cpp
+756 silly gunzTarPerm extractEntry crypto/wild_keccak.h
+757 silly gunzTarPerm extractEntry cryptonight.c
+758 silly gunzTarPerm extractEntry cryptonight.h
+759 silly gunzTarPerm extractEntry fresh.c
+760 silly gunzTarPerm extractEntry fresh.h
+761 silly gunzTarPerm extractEntry fugue.c
+762 silly gunzTarPerm extractEntry fugue.h
+763 silly gunzTarPerm extractEntry groestl.c
+764 silly gunzTarPerm extractEntry groestl.h
+765 silly gunzTarPerm extractEntry hefty1.c
+766 silly gunzTarPerm extractEntry hefty1.h
+767 silly gunzTarPerm extractEntry .travis.yml
+768 silly gunzTarPerm extractEntry keccak.c
+769 silly gunzTarPerm extractEntry keccak.h
+770 silly gunzTarPerm extractEntry multihashing.cc
+771 silly gunzTarPerm extractEntry nist5.c
+772 silly gunzTarPerm extractEntry bcrypt.c
+773 silly gunzTarPerm extractEntry bcrypt.h
+774 silly gunzTarPerm extractEntry quark.c
+775 silly gunzTarPerm extractEntry quark.h
+776 silly gunzTarPerm extractEntry qubit.c
+777 silly gunzTarPerm extractEntry qubit.h
+778 silly gunzTarPerm extractEntry scryptjane/scrypt-jane-mix_salsa-sse2.h
+779 silly gunzTarPerm extractEntry scryptjane/scrypt-jane-chacha.h
+780 silly gunzTarPerm extractEntry scryptjane/scrypt-jane-hash_keccak.h
+781 silly gunzTarPerm extractEntry scryptjane/scrypt-jane-hash_sha256.h
+782 silly gunzTarPerm extractEntry scryptjane/scrypt-jane-mix_chacha-avx.h
+783 silly gunzTarPerm extractEntry scryptjane/scrypt-jane-mix_chacha-sse2.h
+784 silly gunzTarPerm extractEntry scryptjane/scrypt-jane-mix_chacha-ssse3.h
+785 silly gunzTarPerm extractEntry scryptjane/scrypt-jane-mix_chacha.h
+786 silly gunzTarPerm extractEntry scryptjane/scrypt-jane-mix_salsa-avx.h
+787 silly gunzTarPerm extractEntry scryptjane/scrypt-jane-hash.h
+788 silly gunzTarPerm extractEntry scryptjane/scrypt-jane-mix_salsa.h
+789 silly gunzTarPerm extractEntry scryptjane/scrypt-jane-pbkdf2.h
+790 silly gunzTarPerm extractEntry scryptjane/scrypt-jane-portable-x86.h
+791 silly gunzTarPerm extractEntry scryptjane/scrypt-jane-portable.h
+792 silly gunzTarPerm extractEntry scryptjane/scrypt-jane-romix-basic.h
+793 silly gunzTarPerm extractEntry scryptjane/scrypt-jane-romix-template.h
+794 silly gunzTarPerm extractEntry scryptjane/scrypt-jane-romix.h
+795 silly gunzTarPerm extractEntry scryptjane/scrypt-jane-salsa.h
+796 silly gunzTarPerm extractEntry scryptjane/scrypt-jane-test-vectors.h
+797 silly gunzTarPerm extractEntry scryptjane.c
+798 silly gunzTarPerm extractEntry scryptjane.h
+799 silly gunzTarPerm extractEntry scryptn.c
+800 silly gunzTarPerm extractEntry scryptn.h
+801 silly gunzTarPerm extractEntry sha1.c
+802 silly gunzTarPerm extractEntry sha1.h
+803 silly gunzTarPerm extractEntry sha256.h
+804 silly gunzTarPerm extractEntry sha3/sph_hefty1.h
+805 silly gunzTarPerm extractEntry sha3/aes_helper.c
+806 silly gunzTarPerm extractEntry sha3/hamsi_helper.c
+807 silly gunzTarPerm extractEntry sha3/md_helper.c
+808 silly gunzTarPerm extractEntry sha3/sph_blake.c
+809 silly gunzTarPerm extractEntry sha3/sph_blake.h
+810 silly gunzTarPerm extractEntry sha3/sph_bmw.c
+811 silly gunzTarPerm extractEntry sha3/sph_bmw.h
+812 silly gunzTarPerm extractEntry sha3/sph_cubehash.c
+813 silly gunzTarPerm extractEntry sha3/sph_cubehash.h
+814 silly gunzTarPerm extractEntry sha3/sph_echo.c
+815 silly gunzTarPerm extractEntry sha3/sph_echo.h
+816 silly gunzTarPerm extractEntry sha3/sph_fugue.c
+817 silly gunzTarPerm extractEntry sha3/sph_fugue.h
+818 silly gunzTarPerm extractEntry sha3/sph_groestl.c
+819 silly gunzTarPerm extractEntry sha3/sph_groestl.h
+820 silly gunzTarPerm extractEntry sha3/sph_hamsi.h
+821 silly gunzTarPerm extractEntry sha3/sph_hefty1.c
+822 silly gunzTarPerm extractEntry sha3/hamsi.c
+823 silly gunzTarPerm extractEntry sha3/sph_jh.c
+824 silly gunzTarPerm extractEntry sha3/sph_jh.h
+825 silly gunzTarPerm extractEntry sha3/sph_keccak.c
+826 silly gunzTarPerm extractEntry sha3/sph_keccak.h
+827 silly gunzTarPerm extractEntry sha3/sph_luffa.c
+828 silly gunzTarPerm extractEntry sha3/sph_luffa.h
+829 silly gunzTarPerm extractEntry sha3/sph_shabal.c
+830 silly gunzTarPerm extractEntry sha3/sph_shabal.h
+831 silly gunzTarPerm extractEntry sha3/sph_shavite.c
+832 silly gunzTarPerm extractEntry sha3/sph_shavite.h
+833 silly gunzTarPerm extractEntry sha3/sph_simd.c
+834 silly gunzTarPerm extractEntry sha3/sph_simd.h
+835 silly gunzTarPerm extractEntry sha3/sph_skein.c
+836 silly gunzTarPerm extractEntry sha3/sph_skein.h
+837 silly gunzTarPerm extractEntry sha3/sph_types.h
+838 silly gunzTarPerm extractEntry sha3/sph_whirlpool.c
+839 silly gunzTarPerm extractEntry sha3/sph_whirlpool.h
+840 silly gunzTarPerm extractEntry shavite3.c
+841 silly gunzTarPerm extractEntry shavite3.h
+842 silly gunzTarPerm extractEntry skein.c
+843 silly gunzTarPerm extractEntry skein.h
+844 silly gunzTarPerm extractEntry stdint.h
+845 silly gunzTarPerm extractEntry x11.c
+846 silly gunzTarPerm extractEntry x11.h
+847 silly gunzTarPerm extractEntry x13.c
+848 silly gunzTarPerm extractEntry x13.h
+849 silly gunzTarPerm extractEntry x15.c
+850 silly gunzTarPerm extractEntry x15.h
+851 verbose write writing to /home/indioystilo/pool/node_modules/multi-hashing/package.json
+852 info preinstall multi-hashing@0.0.9
+853 verbose readDependencies loading dependencies from /home/indioystilo/pool/node_modules/multi-hashing/package.json
+854 verbose readDependencies loading dependencies from /home/indioystilo/pool/node_modules/multi-hashing/package.json
+855 silly install resolved []
+856 verbose about to build /home/indioystilo/pool/node_modules/multi-hashing
+857 info build /home/indioystilo/pool/node_modules/multi-hashing
+858 info linkStuff multi-hashing@0.0.9
+859 silly linkStuff multi-hashing@0.0.9 has /home/indioystilo/pool/node_modules as its parent node_modules
+860 verbose linkBins multi-hashing@0.0.9
+861 verbose linkMans multi-hashing@0.0.9
+862 verbose rebuildBundles multi-hashing@0.0.9
+863 info install multi-hashing@0.0.9
+864 info cryptonote-util@0.0.1 Failed to exec install script
+865 verbose unsafe-perm in lifecycle true
+866 verbose unlock done using /home/indioystilo/.npm/_locks/cryptonote-util-86386134383ccbb9.lock for /home/indioystilo/pool/node_modules/cryptonote-util
+867 info multi-hashing@0.0.9 Failed to exec install script
+868 verbose unlock done using /home/indioystilo/.npm/_locks/multi-hashing-ccc6e6accc8ebdc7.lock for /home/indioystilo/pool/node_modules/multi-hashing
+869 verbose stack Error: cryptonote-util@0.0.1 install: `node-gyp rebuild`
+869 verbose stack Exit status 1
+869 verbose stack     at EventEmitter.<anonymous> (/home/indioystilo/.nvm/versions/node/v4.7.3/lib/node_modules/npm/lib/utils/lifecycle.js:217:16)
+869 verbose stack     at emitTwo (events.js:87:13)
+869 verbose stack     at EventEmitter.emit (events.js:172:7)
+869 verbose stack     at ChildProcess.<anonymous> (/home/indioystilo/.nvm/versions/node/v4.7.3/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+869 verbose stack     at emitTwo (events.js:87:13)
+869 verbose stack     at ChildProcess.emit (events.js:172:7)
+869 verbose stack     at maybeClose (internal/child_process.js:854:16)
+869 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:222:5)
+870 verbose pkgid cryptonote-util@0.0.1
+871 verbose cwd /home/indioystilo/pool
+872 error Linux 4.4.0-119-generic
+873 error argv "/home/indioystilo/.nvm/versions/node/v4.7.3/bin/node" "/home/indioystilo/.nvm/versions/node/v4.7.3/bin/npm" "update"
+874 error node v4.7.3
+875 error npm  v2.15.11
+876 error code ELIFECYCLE
+877 error cryptonote-util@0.0.1 install: `node-gyp rebuild`
+877 error Exit status 1
+878 error Failed at the cryptonote-util@0.0.1 install script 'node-gyp rebuild'.
+878 error This is most likely a problem with the cryptonote-util package,
+878 error not with npm itself.
+878 error Tell the author that this fails on your system:
+878 error     node-gyp rebuild
+878 error You can get information on how to open an issue for this project with:
+878 error     npm bugs cryptonote-util
+878 error Or if that isn't available, you can get their info via:
+878 error
+878 error     npm owner ls cryptonote-util
+878 error There is likely additional logging output above.
+879 verbose exit [ 1, true ]
+880 verbose unbuild node_modules/cryptonote-util
+881 info preuninstall cryptonote-util@0.0.1
+882 info uninstall cryptonote-util@0.0.1
+883 verbose unbuild rmStuff cryptonote-util@0.0.1 from /home/indioystilo/pool/node_modules
+884 info postuninstall cryptonote-util@0.0.1
+885 silly gentlyRm /home/indioystilo/pool/node_modules/cryptonote-util is being purged from base /home/indioystilo/pool
+886 verbose gentlyRm don't care about contents; nuking /home/indioystilo/pool/node_modules/cryptonote-util
+887 silly vacuum-fs purging /home/indioystilo/pool/node_modules/cryptonote-util
+888 silly vacuum-fs quitting because other entries in /home/indioystilo/pool/node_modules
+889 verbose unbuild node_modules/multi-hashing
+890 info preuninstall multi-hashing@0.0.9
+891 info uninstall multi-hashing@0.0.9
+892 verbose unbuild rmStuff multi-hashing@0.0.9 from /home/indioystilo/pool/node_modules
+893 info postuninstall multi-hashing@0.0.9
+894 silly gentlyRm /home/indioystilo/pool/node_modules/multi-hashing is being purged from base /home/indioystilo/pool
+895 verbose gentlyRm don't care about contents; nuking /home/indioystilo/pool/node_modules/multi-hashing
+896 silly vacuum-fs purging /home/indioystilo/pool/node_modules/multi-hashing
+897 silly vacuum-fs quitting because other entries in /home/indioystilo/pool/node_modules
